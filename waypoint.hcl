@@ -4,7 +4,7 @@ runner {
   enabled = true
 
   data_source "git" {
-    url  = "https://github.com/rlandingham/fast-lambda"
+    url  = "https://github.com/rlandingham/fast-lambda.git"
   }
 }
 
