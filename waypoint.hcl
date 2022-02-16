@@ -1,5 +1,13 @@
 project = "fast-lambda"
 
+runner {
+  enabled = true
+
+  data_source "git" {
+    url  = "https://github.com/rlandingham/fast-lambda"
+  }
+}
+
 app "fast-lambda" {
   build {
     use "pack" {
