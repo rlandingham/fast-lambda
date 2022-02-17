@@ -1,4 +1,4 @@
-project = "fast-lambda"
+project = "fast-lambda2"
 
 runner {
   enabled = true
