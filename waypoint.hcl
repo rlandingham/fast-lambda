@@ -10,7 +10,8 @@ runner {
 
 app "fast-lambda" {
   build {
-    use "pack" {
+    use "docker" {
+      dockerfile = "/docker/Dockerfile"
     }
 
     registry {
