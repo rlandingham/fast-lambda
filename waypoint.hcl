@@ -11,7 +11,7 @@ runner {
 app "fast-lambda" {
   build {
     use "docker" {
-      dockerfile = "/docker/Dockerfile"
+      dockerfile = "docker/Dockerfile"
     }
 
     registry {
