@@ -26,6 +26,7 @@ app "fast-lambda" {
   deploy {
     use "aws-lambda" {
       region = "us-west-2"
+      iam_role = "arn:aws:iam::869442444543:role/fast-lambda-role"
     }
   }
 
