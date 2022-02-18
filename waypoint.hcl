@@ -32,7 +32,9 @@ app "fast-lambda" {
 
   release {
     use "aws-alb" {
+      domain_name = "fast-lambda.dev.mpulsemobile.com"
       subnets = ["subnet-0ca652c958d26491e","subnet-0c8ea773a1e54c78c"]
+      zone_id = "Z08241733RWEZ7H7NGLQH"
     }
   }
 }
